@@ -40,8 +40,6 @@ while rnm >= 1:
     r = float(input("What is the current interest rate? "))
     rnm = (1+r-d)/(u-d)
 
-# create array to represent each up and down step
-
 
 # finding price for each event
 
