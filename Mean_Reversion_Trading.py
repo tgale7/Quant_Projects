@@ -1,3 +1,7 @@
+####
+Not working as of 01/05/2025 due to changes in yfinance, fix yet to be implemented 
+####
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
