@@ -1,5 +1,5 @@
 ####
-Not working as of 01/05/2025 due to changes in yfinance, fix yet to be implemented 
+# Not working as of 01/05/2025 due to changes in yfinance, fix yet to be implemented 
 ####
 
 import pandas as pd
