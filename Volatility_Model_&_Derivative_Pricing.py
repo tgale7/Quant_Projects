@@ -1,3 +1,7 @@
+####  As the model updates on live market data, this can be heavily skew IV to ridiculous amounts, code functions when all values
+####  are sensible which is often not the case 
+
+
 import pandas as pd
 import yfinance as yf
 import numpy as np
