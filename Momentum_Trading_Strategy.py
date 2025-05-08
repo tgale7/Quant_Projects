@@ -10,7 +10,7 @@ day = np.arange(1, len(gld) + 1)
 gld['day'] = day
 
 # removing irrelevant columns
-gld.drop(columns=['Adj Close', 'Volume'], inplace=True)
+gld.drop(columns=['Close', 'Volume'], inplace=True)
 
 # creating moving average for 9 and 21 days as a measure of movement
 gld['9-day'] = gld['Close'].rolling(9).mean().shift()  # shift used to ensure we are looking at the previous close, not the current day
