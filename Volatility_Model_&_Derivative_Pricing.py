@@ -1,3 +1,6 @@
+
+### As model uses recent option data, errors can occur when running the model outside of trading hours ###
+
 import pandas as pd
 import yfinance as yf
 import numpy as np
